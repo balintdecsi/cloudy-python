@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cloudy-python"
+description = "My part of the project work for a Python course. We were three in the group and went with Raspberry Pi Sense HAT for weather logging. I was responsible for the forecasting feature."
+authors = ["balintdecsi <balint.decsi@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.2.2"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
